@@ -5,6 +5,7 @@ const session = require('express-session');
 const { Strategy: GoogleStrategy } = require('passport-google-oauth20');
 const axios = require('axios');
 const bodyParser = require('body-parser');
+const auth = require('./routes/auth');
 const cors = require('cors');
 require('dotenv').config();
 
